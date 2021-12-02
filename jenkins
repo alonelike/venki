@@ -2,7 +2,7 @@ pipeline{
 	agent any
 	stages{
 	  stage('pre'){
-		step{
+		steps{
 			echo"predefined variable $BUILD_NUMBER $WORKSPACE"
 		}
 	  }

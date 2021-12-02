@@ -5,13 +5,13 @@ pipeline {
        			 stage('Hello') {
 
             			steps {
-                			echo 'Hello World'
-              				echo 'how are you'
+                			echo "Hello World"
+              				echo "how are you"
          		  	}
       			 stage('testing mode') {
 
                     		steps {
-                        		echo 'testing is completed'
+                        		echo "testing is completed"
                    		 }
 			 }
 

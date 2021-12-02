@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 	stages{
-		stage(1st_step){
+		stage('1st_step'){
 			steps{
 				echo"userdefined variable $MYHOME"
 			}

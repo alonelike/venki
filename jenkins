@@ -1,0 +1,11 @@
+pipeline{
+	agent any
+	stages{
+	  stage('pre'){
+		step{
+			echo"predefined variable $BUILD_NUMBER $WORKSPACE"
+		}
+	  }
+	}
+}
+

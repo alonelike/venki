@@ -8,14 +8,14 @@ pipeline {
 		echo 'how are you'
             }
     	stage('testing mode') {
-	    steps {
-	    	echo 'testing is completed'
-
-	    }
+		    steps {
+	    		echo 'testing is completed'
+	    	    }
     	}
-	}
 }
 }
+}
+    	
 
 
 

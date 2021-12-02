@@ -1,5 +1,8 @@
 pipeline{
 	agent any
+	environment{
+		MYHOME="BANGALORE"
+	}
 	stages{
 		stage('User'){
 			steps{

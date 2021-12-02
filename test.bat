@@ -5,6 +5,7 @@ pipeline{
             steps{
                 bat "dir"
                 bat "cd"
+		bat "ping www.google.com"
             }
         }
     }

@@ -12,8 +12,10 @@ pipeline {
 	    	echo 'testing is completed'
 
 	    }
-   	 }
-	}	
-      }
+    	}
+	}
 }
+}
+
+
 
